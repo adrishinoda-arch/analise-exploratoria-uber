@@ -1,19 +1,3 @@
-"""
-ANÁLISE EXPLORATÓRIA DE DADOS - Uber Data Analytics Dashboard 
-
-Este script realiza análise exploratória de dados de corridas,
-incluindo:
-- Limpeza e tratamento de dados (nulos, outliers)
-- Análise de cancelamentos
-- Análise temporal
-- Avaliações e métodos de pagamento
-- Correlações entre variáveis
-
-Autora: Adriana Shinoda
-Data: 24/03/2026
-Versão: 1.0
-"""
-
 #1. CONFIGURAÇÃO INICIAL
 #Importação de bibliotecas
 import pandas as pd
@@ -23,7 +7,7 @@ import seaborn as sns
 print('Bibliotecas importadas com sucesso!')
 
 # Carregar dataset
-df_original = pd.read_csv('ncr_ride_bookings.csv')
+df_original = pd.read_csv('data/ncr_ride_bookings.csv')
 
 #2. CONHECENDO O DATASET
 print("=" * 60)
